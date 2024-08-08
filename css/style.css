@@ -52,6 +52,170 @@ line-height: normal;
     height: 858px;
 }
 
+.hero-text {
+    color: #FFF;
+font-family: "PT Serif";
+font-size: 48px;
+font-style: normal;
+font-weight: 1.33;
+line-height: normal;
+}
+
+.hero-title {
+    color: #FFF;
+
+font-family: "Playfair Display";
+font-size: 144px;
+font-style: normal;
+font-weight: 1.33;
+line-height: normal;
+}
+
+.hero-title-b {
+    color: #FFF;
+
+font-family: "Playfair Display";
+font-size: 72px;
+font-style: normal;
+font-weight: 1.33;
+line-height: normal;
+}
+
+.hero-text-b {
+    color: #FFF;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 1.16;
+line-height: normal;
+}
+
+.hero-btn {
+    width: 254px;
+    height: 67px;
+    border-radius: 10px;
+    background-color: #8E32C6;
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 0.8;
+line-height: normal;
+}
+
+.make-shoes {
+    background-image: url(../img/background.jpg);
+    width: 1440px;
+    height: 606px;
+}
+
+.make-shoes-box {
+    display: flex;
+}
+
+.make-shoes-title {
+    color: #FFF;
+text-align: center;
+font-family: "Playfair Display";
+font-size: 36px;
+font-style: normal;
+font-weight: 1.33;
+line-height: normal
+}
+
+.reviews {
+    width: 1440px;
+    height: 520px;
+    background-image: url(../img/background-rewiwes.jpg);
+}
+
+.reviews-text {
+    color: #FFF;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 1.16;
+line-height: normal;
+}
+
+.reviews-day {
+    color: #D8D8D8;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 1.14;
+line-height: normal;
+}
+
+.reviews-name {
+    color: #FFF;
+
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 1.14;
+line-height: normal;
+}
+
+.reviews-with-us {
+    color: #D8D8D8;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 1.16;
+line-height: normal;
+}
+
+.form {
+    width: 1440px;
+height: 509px;
+background-image: url(../img/form-background.jpg);
+}
+
+.form-title {
+    color: #FFF;
+
+font-family: "Playfair Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 1.33;
+line-height: normal;
+}
+
+.form-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-input-boss {
+    width: 690px;
+height: 60px;
+border-radius: 50px;
+background-color: #FFF;
+}
+
+.form-input {
+    width: 690px;
+height: 60px;
+border-radius: 50px;
+background-color: #FFF;
+}
+
+.form-btn {
+    width: 248px;
+height: 68px;
+border-radius: 16px;
+background: #8E32C6;
+color: #FFF;
+
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 1.16;
+line-height: normal;
+}
+
+
 
 
 
