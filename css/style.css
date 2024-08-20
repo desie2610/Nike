@@ -8,7 +8,9 @@ a {
     text-decoration: none;
 }
 
-h1,h2,p {
+h1,
+h2,
+p {
     margin: 0;
 }
 
@@ -21,13 +23,13 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .header {
     background-color: #012D63;
     padding-top: 16px;
-padding-bottom: 17px;
+    padding-bottom: 17px;
 }
 
 .header-box {
@@ -43,78 +45,78 @@ padding-bottom: 17px;
 
 .header-link {
     color: #FFF;
-font-family: "Roboto";
-font-size: 24px;
-font-weight: 400;
-line-height: 1.16;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.16;
 }
 
 .hero {
     background-image: url(../img/background-shoes.jpg);
     background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
-padding-top: 94px;
-padding-bottom: 183px;
+    background-position: center;
+    background-size: cover;
+    padding-top: 94px;
+    padding-bottom: 183px;
 }
 
 
 .hero-text {
     color: #FFF;
-font-family: "PT Serif";
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.33;
-margin-bottom: 1px;
-margin-top: 1px;
+    font-family: "PT Serif";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 
 .hero-title {
     color: #FFF;
 
-font-family: "Playfair Display";
-font-size: 144px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.33;
-margin-bottom: 1px;
+    font-family: "Playfair Display";
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    margin-bottom: 1px;
 }
 
 .hero-title-b {
     color: #FFF;
 
-font-family: "Playfair Display";
-font-size: 72px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.33;
-margin-bottom: 12px;
+    font-family: "Playfair Display";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    margin-bottom: 12px;
 }
 
 .hero-text-b {
     color: #FFF;
-font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.16;
-margin-bottom: 46px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    margin-bottom: 46px;
 }
 
 .hero-btn {
     border-radius: 10px;
     background-color: #8E32C6;
     color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 0.8;
-padding-top: 20px;
-padding-bottom: 20px;
-padding-right: 61px;
-padding-left: 61px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 61px;
+    padding-left: 61px;
 }
 
 .make-shoes {
@@ -137,62 +139,63 @@ padding-left: 61px;
 }
 
 .make-shoes-item {
-padding-left: 50px;
-padding-right: 50px;
-display: flex;
-flex-direction: column;
-gap: 5px;
-align-items: center;
-border-right: 1px solid #FFF;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    border-right: 1px solid #FFF;
 }
 
 .make-shoes-item:nth-child(2) {
-padding-left: 95px;
-padding-right: 95px;
-flex-direction: column-reverse;
+    padding-left: 95px;
+    padding-right: 95px;
+    flex-direction: column-reverse;
 }
 
 .make-shoes-item:nth-child(3) {
     border-right: none;
-} 
+}
 
 .make-shoes-title {
     color: #FFF;
-text-align: center;
-font-family: "Playfair Display";
-font-size: 36px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.33;
-width: 161px;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    width: 161px;
 }
 
 
 
 .reviews {
     background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+    background-position: center;
+    background-size: cover;
     background-image: url(../img/background-rewiwes.jpg);
+    padding-top: 25px;
+    padding-bottom: 114px;
 }
 
 .reviews-list {
     display: flex;
     gap: 120px;
     align-items: center;
-    padding-bottom: 114px;
-    margin: 0 auto;
+    justify-content: center;
 }
 
 .reviews-title {
     color: #FFF;
-text-align: center;
-font-family: "Playfair Display";
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.33;
-margin-bottom: 24pxt;
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    margin-bottom: 24px;
 }
 
 .reviews-item {
@@ -203,85 +206,85 @@ margin-bottom: 24pxt;
 }
 
 
-    
+
 .reviews-item:nth-child(1) {
     border-radius: 15px;
-background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
-box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
+    background: linear-gradient(137deg, #00E5E6 7.29%, #00A8F7 26.04%, #9A76F9 62.5%, #CC5EC2 100%);
+    box-shadow: 0px 14px 0px -5px #7B54B2, 0px 30px 0px -13px #533978;
 }
 
 .reviews-item:nth-child(2) {
     border-radius: 15px;
-background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
-box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
+    background: linear-gradient(137deg, #FF68B4 0%, #FF45E1 26.04%, #CE3AFF 62.84%, #8961FF 100%);
+    box-shadow: 0px 14px 0px -5px #9159B1, 0px 30px 0px -13px #61337C;
 }
 
 .reviews-item:nth-child(3) {
     border-radius: 15px;
-background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
-box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
+    background: linear-gradient(143deg, #FFE128 0%, #FF9B5C 30.21%, #FF8381 63.29%, #FF5489 100%);
+    box-shadow: 0px 14px 0px -5px #B95A4C, 0px 30px 0px -13px #732F26;
 }
 
 
 .reviews-text {
     color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.16;
-margin-bottom: 8px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    margin-bottom: 8px;
 }
 
 .reviews-day {
     color: #D8D8D8;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.14;
-margin-bottom: 47px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.14;
+    margin-bottom: 47px;
 }
 
 .reviews-name {
     color: #FFF;
 
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.14;
-margin-bottom: 1px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.14;
+    margin-bottom: 1px;
 }
 
 .reviews-with-us {
     color: #D8D8D8;
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.16;
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
 }
 
 .form {
-background-image: url(../img/form-background.jpg);
-text-align: center;
-padding-top: 21px;
-padding-bottom: 37px;
-background-repeat: no-repeat;
-background-position: center;
-background-size: cover;
+    background-image: url(../img/form-background.jpg);
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 37px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .form-title {
     color: #FFF;
 
-font-family: "Playfair Display";
-font-size: 48px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.33;
-margin-bottom: 33px;
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    margin-bottom: 33px;
 }
 
 .form-item {
@@ -291,62 +294,106 @@ margin-bottom: 33px;
 
 
 .form-input-boss {
-border-radius: 50px;
-background-color: #FFF;
-padding: 12px 460px 12px 25px;
-color: #959595;
+    border-radius: 50px;
+    background-color: #FFF;
+    padding: 12px 460px 12px 25px;
+    color: #959595;
 
-font-family: Roboto;
-font-size: 28px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .form-input {
-border-radius: 50px;
-background-color: #FFF;
-padding: 11px 417px 11px 24px;
-color: #959595;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    border-radius: 50px;
+    background-color: #FFF;
+    padding: 11px 417px 11px 24px;
+    color: #959595;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .form-btn {
-border-radius: 16px;
-background: #8E32C6;
-color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.16;
-padding: 20px 49px;
-border: none;
+    border-radius: 16px;
+    background: #8E32C6;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    padding: 20px 49px;
+    border: none;
 }
 
 .footer {
     background-color: #021635;
+    padding-top: 45px;
+    padding-bottom: 45px;
 }
 
 .footer-box {
     display: flex;
+    justify-content: space-between;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: right;
 }
 
 .footer-link {
     color: #FFF;
-font-family: Roboto;
-font-size: 24px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.16;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+}
+
+.footer-last {
+    padding-top: 20px;
+}
+
+.footer-last-box {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #9B9B9B;
+}
+
+.footer-last-text {
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    margin-bottom: 7px;
+    padding-top: 25px;
 }
 
 
 
-
-
-
+.footer-logo-text {
+    color: #FFF;
+    font-family: "PT Serif";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    margin-top: 1px;
+}
