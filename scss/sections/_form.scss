@@ -1,0 +1,64 @@
+.form {
+    background-image: url(../img/form-background.jpg);
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 37px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-title {
+    color: #FFF;
+
+    font-family: "Playfair Display";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    margin-bottom: 33px;
+}
+
+.form-item {
+    margin-bottom: 19px;
+}
+
+
+
+.form-input-boss {
+    border-radius: 50px;
+    background-color: #FFF;
+    padding: 12px 460px 12px 25px;
+    color: #959595;
+
+    font-family: Roboto;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-input {
+    border-radius: 50px;
+    background-color: #FFF;
+    padding: 11px 417px 11px 24px;
+    color: #959595;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-btn {
+    border-radius: 16px;
+    background: #8E32C6;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    padding: 20px 49px;
+    border: none;
+}
